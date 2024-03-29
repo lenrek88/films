@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border-bottom: 2px black solid;
+  gap: 85%;
+}
+
+.App-header > button {
+  border: none;
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.ModalForm {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalForm button {
+  width: 350px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.ModalForm input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-bottom: 2px gray solid;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.ModalForm input:focus {
+  border-bottom: 2px blue solid;
+}
+
+.FiltersContainer {
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 368px;
+  height: 791px;
+  font-size: calc(5px + 2vmin);
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  border: 2px gray solid;
+}
+
+.filters-header {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.filters-header > p {
+  margin-left: 10px;
+}
+
+.filters-header > button {
+  border: none;
+  background-color: white;
+  font-size: calc(5px + 2vmin);
+}
+
+.FiltersContainer > select {
+  margin: 10px;
+  border: none;
+  border-bottom: 1px gray solid;
+  font-size: calc(5px + 2vmin);
+}
+
+.pagination > button {
+  border: none;
+  font-size: calc(10px + 1vmin);
+  background-color: white;
+}
+
+.pagination {
+  margin-top: auto;
+  margin-bottom: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.genres {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 10px;
+}
+
+.genres-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
